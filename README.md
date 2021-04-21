@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Screen Recorder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### _This project is made with CRA and electron_
 
-## Available Scripts
+## This project lets you record screen and save it to your local machine. 😱
 
-In the project directory, you can run:
+ 
+ ### There are few commands to help you get started 👨‍💻
 
-### `yarn start`
+ ```
+"start" -> Start dev server to run at local host 3000 for non windows user.
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```
+"start-win" -> Start dev server to run at local host 3000 on windows machine.
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```
+"start-electron" -> Open up window with url set to localhost:3000 for non windows user.
 
-### `yarn test`
+> NOTE: run the react server before this as it will be blank.
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+"start-electron-win"-> Open up window with url set to localhost:3000 on windows machine.
 
-### `yarn build`
+> NOTE: run the react server for win before this as it will be blank.
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+"build" -> This will build binary for web.
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+"build-electron" -> This will build binary for native machine for non windows user.
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+ "build-electron-win" -> This will build binary for windows machine.
+```
 
-### `yarn eject`
+```
+"package" -> This will create all the binary for web and native machine for non windows user.
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+"package-win" -> This will create all the binary for web and native machine for windows user.
+ ```
