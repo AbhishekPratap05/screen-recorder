@@ -5,7 +5,7 @@ const url = require('url');
 let mainWindow;
 
 const createWindow = () => {
-    mainWindow = new BrowserWindow({ width: 600, height: 600, show: false });
+    mainWindow = new BrowserWindow({ width: 800, height: 600, minWidth: 600, show: false, webPreferences: { nodeIntegration: true } });
     mainWindow.loadURL(
         !app.isPackaged
             ? process.env.ELECTRON_START_URL
@@ -24,6 +24,8 @@ const createWindow = () => {
         mainWindow = null;
     });
 };
+
+app.applicationMenu = null;
 
 app.on('ready', createWindow);
 
